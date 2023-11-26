@@ -52,7 +52,7 @@ public class Main {
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней: 1 день");
         }
-        if (deliveryDistance > 20 && deliveryDistance < 60) {
+        if (deliveryDistance > 20 && deliveryDistance <= 60) {
             System.out.println("Потребуется дней: 2 дня");
         }
         if (deliveryDistance > 60 && deliveryDistance < 100) {
